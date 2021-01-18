@@ -298,7 +298,7 @@ public class ContactsActivity extends AppCompatActivity {
                         //db.execSQL("delete from contacts where id=?;",new String[] {cur.getString(0)});
 
                         bg_delete_contact bg = new bg_delete_contact(ContactsActivity.this);
-                        bg.execute(cur.getString(0));
+                        bg.execute(x);
 
 
                         _txtName.setText("");
